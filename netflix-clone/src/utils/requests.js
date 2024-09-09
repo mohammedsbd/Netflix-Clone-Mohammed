@@ -11,3 +11,4 @@ const requests = {
   fetchTvShows: `/tv/series_id?language=en-US&api_key=${API_KEY}`,
 };
 
+export default requests;
