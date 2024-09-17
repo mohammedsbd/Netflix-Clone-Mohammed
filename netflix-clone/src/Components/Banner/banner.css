@@ -1,38 +1,29 @@
 .banner{
-    /* margin-top: -10vh; */
     height: 80vh;
-    margin-bottom: -80px;
-    color: white;
-    object-fit: contain;
+    margin-bottom: 80px;
 }
 .banner-contents{
-    margin-left: 30px;
-    padding-top: 170px;
-    /* height: 190px; */
-    /* padding-top:; */
+    margin-left: 100px;
+    padding-top: 190px;
+
 }
 
 .banner-title{
-    font-size: 3rem;
-    font-weight: 800;
-    padding-top: 0.3rem;
+    font-size: 4rem;
+ 
 }
 .banner_discription{
-    width: 45rem;
-    line-height: 1;
     padding: 1rem 0;
-    font-size: 1rem;
+    font-size: 20px;
     max-width: 360px;
     height: 80px;
 }
 .banner_button{
     cursor: pointer;
     color: white;
-    outline: none;
     border: none;
     font-size: 1.2rem;
     font-weight: 700;
-    border-radius: 0.2vw;
     padding: 1rem 3rem;
     margin-right: 2rem;
     background-color: rgba(51, 51, 51, 0.5);
@@ -45,7 +36,7 @@
 .banner_button:hover{
     color: #000;
     background-color: #c6c6c6;
-    transition: all0.2s;
+    
 }
 .banner_fadeBottom{
     height: 40vh;

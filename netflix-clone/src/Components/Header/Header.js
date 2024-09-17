@@ -1,6 +1,5 @@
-import React from 'react'
 import "./header.css"
-import NetflixLogo from "../../assests/images/NetflixLogo.png"
+import NetflixLogo from "../../assests/images/netflixlogo2.png"
 import SearchIcon from "@mui/icons-material/Search"
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
@@ -10,10 +9,11 @@ const Header = () => {
   return (
     <div className="header_outer_container">
       <div className="header-container">
+        
+        {/* left header that includes netflix logo */}
         <div className="header-left">
           <ul>
-            <li>
-              <img src={NetflixLogo} alt="Netflix-logo" width="100" />
+            <li><img src={NetflixLogo} alt="Netflix-logo" width="100" />
             </li>
             <li>Home</li>
             <li>TvShows</li>
@@ -23,11 +23,13 @@ const Header = () => {
             <li>Browse by language</li>
           </ul>
         </div>
+       
+       
+       
+       {/* header right lists that include the notification icons */}
         <div className="header-right">
           <ul>
-            <li>
-              <SearchIcon />
-            </li>
+            <li><SearchIcon /></li>
             <li><NotificationsNoneIcon/></li>
             <li><AccountBoxIcon/></li>
             <li><ArrowDropDownIcon/></li>
@@ -38,4 +40,4 @@ const Header = () => {
   );
 }
 
-export default Header
+export default Header;

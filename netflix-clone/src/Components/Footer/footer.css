@@ -1,24 +1,23 @@
 .footer_outer_container{
-    background-color: black;
     color: grey;
     display: flex;
     justify-content: center;
 }
 .footer_inner_container{
     width: 60%;
-    /* background-color: red; */
 }
 .footer_icons{
-    /* background-color: blue; */
-    width: 12%;
+   
+    width: 4%;
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
     color: white;
+    cursor: pointer;
 }
 .footer_data{
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 .footer_data ul{
     list-style: none;
@@ -26,7 +25,6 @@
     flex-direction: column;
    justify-content: space-around;
     height: 12vh;
-    /* background-color: blue; */
 }
 .footer_data ul li{
     cursor: pointer;
@@ -41,6 +39,6 @@
     cursor: pointer;
 }
 .copy-write{
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: px;
 }
